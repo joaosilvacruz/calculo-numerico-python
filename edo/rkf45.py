@@ -1,7 +1,7 @@
-import numpy as np
 import pylab as plt
 
-#dados iniciais
+
+# dados iniciais
 a = 0
 b = 100
 passos = 100
@@ -13,13 +13,14 @@ t_max = b
 precisao = 1e-8
 
 
-#Função a ser calculada
+# Função a ser calculada
 def f(t, p):
     r = 0.8
     k = 100.0
     return r * p * (1 - p/k)
 
-#Função runge-kutta-fehlberg
+
+# Função runge-kutta-fehlberg
 def runge_kutta_fehlberg(f, h):
     t = t0
     y = p0
@@ -37,19 +38,19 @@ def runge_kutta_fehlberg(f, h):
         t = t + h
         t_pontos.append(t)
         solucao.append(y)
-        
-        # Cálculo da precisão de maneira a analisar apenas a diferença entre k6 e k5
+
+        # Cálculo da precisão
         error = abs(k6 - k5)
-        
         # Ajustando o passo
         if error < precisao:
             h = h * 2
         else:
             h = h * 0.5
-    E = 1/360 * k1 - 128/4275 * k3 - 2197/75.240 *k4 +1/50 * k5 + 2/55 *k6
+    E = 1/360 * k1 - 128/4275 * k3 - 2197/75.240 * k4 + 1/50 * k5 + 2/55 * k6
     return t_pontos, solucao, E
 
-#Chamando a 
+
+# Chamando a função
 t_pontos, solucao, e = runge_kutta_fehlberg(f, h)
 
 print(solucao[-1])
