@@ -1,2 +1,2 @@
 # mat-disc-python
- Códigos para a disciplina de matemática discrtea
+ Códigos para a disciplina de matemática discreta
