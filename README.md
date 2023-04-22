@@ -7,7 +7,20 @@
 - Python 3.x
 - Bibliotecas: NumPy, SciPy, Matplotlib
 
-## Pasta - EDO
- Essa pasta contém arquivos de implementações de derivadas ordinárias e parciais
+## Implementações presentes em cada pasta
+
+### :file_folder: Derivadas
+ - Derivadas ordinárias 
+ - Derivadas parciais
+ 
+### :file_folder: Integrais
+ - Integrais duplas 
+ - Integrais triplas
+ 
+### :file_folder: EDO
+ - EDO de runge kutta de 4ª e 5ª ordem
+
+### :file_folder: Sistemas lineares
+
  
  
