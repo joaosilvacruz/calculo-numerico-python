@@ -7,3 +7,7 @@
 - Python 3.x
 - Bibliotecas: NumPy, SciPy, Matplotlib
 
+## Pasta - EDO
+ Essa pasta contém arquivos de implementações de derivadas ordinárias e parciais
+ 
+ 
