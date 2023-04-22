@@ -21,6 +21,10 @@
  - EDO de runge kutta de 4ª e 5ª ordem
 
 ### :file_folder: Sistemas lineares
-
- 
- 
+ - Retrosubstituição
+ - Eliminação de Gauss
+ - Fatoração L.U
+ - Gauss Jacobi
+ - Gauss Seidel
+ - Lagrange
+ - Método de newton (Diferenças divididas)
