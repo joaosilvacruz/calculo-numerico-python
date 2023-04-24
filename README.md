@@ -28,3 +28,6 @@
  - Gauss Seidel
  - Lagrange
  - Método de newton (Diferenças divididas)
+ 
+ ### :file_folder: Sistemas não lineares
+ - Método de newton
