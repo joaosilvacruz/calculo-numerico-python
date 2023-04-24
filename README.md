@@ -31,3 +31,10 @@
  
  ### :file_folder: Sistemas não lineares
  - Método de newton
+ 
+ ### :file_folder: Mínimos quadrados
+ - MMQ Linear
+ - MMQ Exponencial
+ - MMQ Potência
+ - MMQ Logaritmo
+ - MMQ Polinomial 2ª grau
